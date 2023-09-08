@@ -526,6 +526,7 @@ select {
         padding-top: 50px;
         justify-content: center;
         align-items: center;
+        gap: 80px;
     }
 
     #appoint-nav {
@@ -555,7 +556,7 @@ select {
     }
 
     main {
-        height: 1100px;
+        height: 1200px;
     }
 
     .hair-body h2 {
