@@ -1,0 +1,721 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+#new-title {
+    display: none;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    padding: 0 10%;
+    background-color: #bc7af9;
+}
+
+nav {
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 17px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h3 {
+    padding-left: 10px;
+    font-size: 23px;
+    color: #053b50;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar li {
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.navbar li a {
+    color: #053b50;
+    text-transform: capitalize;
+}
+
+.logo-img {
+    width: 40px;
+    height: 40px;
+}
+
+.title-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding-top: 50px;
+}
+
+.hambuger {
+    display: none;
+    cursor: pointer;
+    font-size: 3.5rem;
+}
+
+.image-box {
+    width: 80%;
+}
+
+.title-message h1 {
+    font-size: 4rem;
+    padding-bottom: 10px;
+    font-family: 'Sacramento', cursive;
+}
+
+.title-message p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    padding-bottom: 20px;
+}
+
+.title-button {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #27005d;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.hair-button {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #9400ff;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#hairstyle {
+    background-color: #27005d;
+}
+
+.hairstyle-option {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 40px 50px;
+}
+
+.hair {
+    background-color: #793fdf;
+    height: 530px;
+    border-radius: 5px;
+    text-align: center;
+    width: 270px;
+}
+
+.hair-header img {
+    width: 270px;
+    height: 350px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.hair-body p {
+    font-size: 1.5rem;
+    color: #f0b86e;
+    margin: 15px auto 5px;
+}
+
+.hair-body h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #9f91cc;
+    padding-bottom: 10px;
+}
+
+.hairstyle-title {
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+.map iframe {
+    height: 500px;
+}
+
+.address {
+    display: flex;
+    gap: 50px;
+
+}
+
+.home-address {
+    padding-top: 50px;
+}
+
+.home-address h3 {
+    font-size: 2.7rem;
+    padding-bottom: 40px;
+    font-weight: 700;
+}
+
+.home-address p {
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+}
+
+
+
+
+footer {
+    background: #bc7af9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 15%;
+}
+
+.footer-icon {
+    padding-bottom: 10px;
+}
+
+.footer-icon a {
+    padding: 8px;
+    color: #313866;
+    font-size: 1.8rem;
+}
+
+.Copyright p {
+    font-size: 19px;
+    color: #313866;
+}
+
+
+
+
+/* APPOINTMENT.HTML STYLE */
+#appoint-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 100PX;
+    background-color: #bc7af9;
+    height: 10vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #27005d;
+    color: #fff;
+}
+
+.appointment {
+    width: 35%;
+    padding: 0 0 50px;
+}
+
+.appointment h2 {
+    padding-bottom: 30px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select {
+    outline: none;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin: 5px 0 40px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.apoint-button {
+    width: 100%;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #9400ff;
+    color: #fff;
+    text-align: center;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* @media (max-width: 600px) {
+    footer {
+        height: 15vh;
+    }
+
+    .address {
+        display: block;
+    }
+
+    .home-address {
+        padding-left: 60px;
+        padding-bottom: 30px;
+    }
+
+    .map iframe {
+        width: 100%;
+    }
+
+    .hairstyle-option {
+        padding: 50px 0px;
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hair {
+        width: 370px;
+    }
+
+    .hair-header img {
+        width: 370px;
+    }
+
+    .hairstyle-title {
+        font-size: 30px;
+    }
+
+    header {
+        background-image: url(images/IMG_7873.PNG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        padding: 0;
+
+    }
+
+    nav {
+        position: relative;
+        padding: 10px 40px;
+        background-color: #bc7af9;
+    }
+
+    .title-page {
+        display: block;
+        padding-top: 150px;
+        padding-left: 50px;
+    }
+
+    .title-message {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .title-message h1 {
+        color: #fff;
+
+
+    }
+
+    .title-message p {
+        color: #fff;
+        width: 90%;
+    }
+
+    .title-image {
+        display: none;
+    }
+
+    .navbar {
+        position: absolute;
+        background-color: #bc7af9;
+        top: -500px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        border-top: 2px solid green;
+        box-shadow: 0 4px 4px rgb(14, 55, 54);
+        transition: 0.2s;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .navbar li a {
+        color: #053b50;
+    }
+
+    .navbar.active {
+        top: 100%;
+    }
+
+    .hambuger {
+        display: block;
+    }
+
+    #appoint-nav {
+        padding: 20px 30px;
+    }
+
+    .appointment {
+        width: 90%;
+    }
+} */
+
+@media (min-width: 401px) and (max-width: 1100px) {
+    header {
+        background-image: url(images/IMG_7873.PNG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        padding: 0;
+    }
+
+
+    .hambuger {
+        display: block;
+    }
+
+    nav {
+        position: relative;
+        position: fixed;
+        width: 100%;
+        padding: 10px 40px;
+        height: 7vh;
+        background-color: #bc7af9;
+        border-bottom: 1px solid #27005d;
+    }
+
+    .navbar {
+        position: absolute;
+        width: 100%;
+        background-color: #bc7af9;
+        top: -600px;
+        left: 0;
+        right: 0;
+        height: 400px;
+        text-align: center;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        border-top: 2px solid #27005d;
+        box-shadow: 0 4px 4px #27005d;
+        transition: 0.2s;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .navbar li a {
+        color: #053b50;
+        font-size: 30px;
+    }
+
+    .navbar.active {
+        top: 100%;
+    }
+
+    .title-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+
+    }
+
+    .title-message h1 {
+        color: #fff;
+        font-size: 7rem;
+    }
+
+    .title-message p {
+        color: #fff;
+        width: 80%;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .title-image {
+        display: none;
+    }
+
+    .title-message {
+        display: flex;
+        padding-top: 150px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo h3 {
+        font-size: 40px;
+    }
+
+    .address {
+        display: block;
+    }
+
+    .home-address {
+        padding-left: 60px;
+        padding-bottom: 30px;
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 550px;
+    }
+
+    .hairstyle-option {
+        padding-top: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #appoint-nav {
+        padding: 20px 30px;
+    }
+
+    .appointment {
+        width: 70%;
+        padding-bottom: 0;
+    }
+
+    footer {
+        padding: 7% 15%;
+    }
+
+    .footer-icon a {
+        font-size: 45px;
+    }
+
+    .Copyright p {
+        font-size: 33px;
+    }
+
+
+    .hair-body p {
+        font-size: 2.8rem;
+    }
+
+    main {
+        height: 1100px;
+    }
+
+    .hair-body h2 {
+        font-size: 3.5rem;
+    }
+
+    .hair-button {
+        font-size: 40px;
+    }
+
+    .hairstyle-title {
+        font-size: 80px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    .title-button {
+        display: none;
+    }
+
+    .appointment h2 {
+        font-size: 35px;
+        padding-top: 70px;
+    }
+
+    label {
+        font-size: 25px;
+    }
+
+    .apoint-button {
+        font-size: 25px;
+    }
+
+    .hair-header img {
+        width: 680px;
+        height: 700px;
+    }
+
+    .hair {
+        width: 680px;
+        height: 940px;
+    }
+
+
+    .home-address h3 {
+        font-size: 3.3rem;
+    }
+
+    .home-address p {
+        font-size: 2.5rem;
+    }
+}
+
+/* @media (min-width: 801px) and (max-width: 1000px) {
+    header {
+        background-image: url(images/IMG_7873.PNG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        padding: 0;
+    }
+
+    .title-page {
+        display: block;
+        padding-top: 200px;
+        padding-left: 50px;
+    }
+
+    .title-message {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-message h1 {
+        color: #fff;
+    }
+
+    .title-message p {
+        color: #fff;
+        width: 60%;
+    }
+
+    .title-image {
+        display: none;
+    }
+
+    nav {
+        position: relative;
+        background-color: #bc7af9;
+        padding: 15px 40px;
+    }
+
+    .navbar {
+        position: absolute;
+        background-color: #bc7af9;
+        top: -500px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        border-top: 2px solid green;
+        box-shadow: 0 4px 4px rgb(14, 55, 54);
+        transition: 0.2s;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .navbar li a {
+        color: #053b50;
+    }
+
+    .navbar.active {
+        top: 100%;
+    }
+
+    .hairstyle-option {
+        padding-top: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hair-header img {
+        width: 320px;
+    }
+
+    .hair {
+        width: 320px;
+    }
+
+    .hambuger {
+        display: block;
+    }
+
+    .appointment {
+        width: 50%;
+    }
+} */
+
+/* @media (min-width: 1001px) and (max-width: 1300px) {
+    .hairstyle-option {
+        padding-top: 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .hair-header img {
+        width: 320px;
+    }
+
+    .hair {
+        width: 320px;
+    }
+
+    .appointment {
+        width: 44%;
+    }
+} */
